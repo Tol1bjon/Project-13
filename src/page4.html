@@ -85,6 +85,56 @@
                 </div>
             </div>
         </section>
+
+        <section class="flex flex-col gap-[30px] max-w-[1200px] m-auto py-[100px] px-[10px] lg:px-0">
+            <h1 class="font-bold lg:text-[40px] text-[35px]">Онлайн-калькулятор <br class="lg:flex hidden"> стоимости доставки товара</h1>
+            <p>Задайте необходимые параметры посылки, и калькулятор рассчитает <br class="lg:flex hidden"> приблизительную стоимость доставки вашей посылки из Англии.</p>
+            <aside class="flex flex-col gap-[20px]">
+                <div class="flex lg:flex-row flex-col gap-[20px] items-center justify-between">
+                    <div class="flex flex-col gap-[5px]">
+                        <h1 class="font-bold">Страна:</h1>
+                        <div class="flex items-center border-b-1 border-black py-[10px]">
+                            <div class="flex items-center gap-[10px]">
+                                <img src="./GlobeHemisphereWest.png" alt="">
+                                <input class="border-none" placeholder="Россия" type="text">
+                            </div>
+                            <select></select>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[5px]">
+                        <h1 class="font-bold">Город:</h1>
+                        <div class="flex items-center border-b-1 border-black py-[10px]">
+                            <div class="flex items-center gap-[10px]">
+                                <img src="./Buildings.png" alt="">
+                                <input class="border-none" placeholder="Москва" type="text">
+                            </div>
+                            <select></select>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[5px]">
+                        <h1 class="font-bold">Индекс:</h1>
+                        <div class="flex items-center border-b-1 border-black py-[10px]">
+                            <div class="flex items-center gap-[10px]">
+                                <img src="./Notebook.png" alt="">
+                                <input class="border-none" placeholder="Введите индекс" type="text">
+                            </div>
+                            <select></select>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[5px]">
+                        <h1 class="font-bold">Вес посылки:</h1>
+                        <div class="flex items-center border-b-1 border-black py-[10px]">
+                            <div class="flex items-center gap-[10px]">
+                                <img src="./Barbell.png" alt="">
+                                <input class="border-none" placeholder="0,5" type="text">
+                            </div>
+                            <select></select>
+                        </div>
+                    </div>
+                </div>
+                <button class="py-[10px] px-[15px] text-[white] rounded-[20px] bg-[#00D881] lg:w-[20%]">Рассчитать</button>
+            </aside>
+        </section>
     </main>
 </body>
 </html>
